@@ -1,6 +1,6 @@
-# react-native-ico-lodgicons
+# Lodgicons Icons for React Native
 
-### Lodgicons Icons for React Native
+### react-native-ico-lodgicons
 
 400 Icons
 
@@ -13,15 +13,19 @@ import Icon from 'react-native-ico-lodgicons';
 // Inside some view component
 render() {
     return (
-        <Fragment>
+        <>
           <Icon name="buffet" />
           <Icon name="dvd" height="40" width="40" />
           <Icon name="minibar" color="red" />
-        </Fragment>
+        </>
     );
 }
 
 ```
+
+## List of icons
+
+- [List of Lodgicons Icons](static/lodgicons.md)
 
 ## Installation
 
@@ -63,13 +67,9 @@ width | yes | 20 | width of the icon | 40
 height | yes | 20 | height of the icon | 40
 ...rest | no | | other props | style={{backgroundColor: "#00f"}}
 
-## List of icons
-
-- [List of Lodgicons Icons](static/lodgicons.md)
-
 ## Icons Made by
 
-[Dave Gandy](https://www.flaticon.com/authors/dave-gandy)
+[Freepik](https://www.flaticon.com/authors/freepik)
 
 ## Created by
 
