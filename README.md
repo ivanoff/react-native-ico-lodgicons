@@ -14,9 +14,9 @@ import Icon from 'react-native-ico-lodgicons';
 render() {
     return (
         <Fragment>
-          <Icon name="home" />
-          <Icon name="file" height="40" width="40" />
-          <Icon name="smile" color="red" />
+          <Icon name="buffet" />
+          <Icon name="dvd" height="40" width="40" />
+          <Icon name="minibar" color="red" />
         </Fragment>
     );
 }
