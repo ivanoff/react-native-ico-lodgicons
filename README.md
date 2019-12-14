@@ -25,7 +25,7 @@ render() {
 
 ## List of icons
 
-- [List of Lodgicons Icons](static/lodgicons.md)
+- [List of Lodgicons Icons](http://ico.simpleness.org/pack/lodgicons)
 
 ## Installation
 
