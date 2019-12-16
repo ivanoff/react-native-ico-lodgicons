@@ -1,8 +1,8 @@
-# lodgicons Icons for React Native
+# Lodgicons Icons for React Native
 
 ### react-native-ico-lodgicons
 
-369 Icons
+400 Icons
 
 ## Usage
 
@@ -25,7 +25,7 @@ render() {
 
 ## List of icons
 
-- [List of lodgicons Icons](http://ico.simpleness.org/pack/lodgicons)
+- [List of Lodgicons Icons](http://ico.simpleness.org/pack/lodgicons)
 
 ## Installation
 
