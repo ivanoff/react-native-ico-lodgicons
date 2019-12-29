@@ -2,7 +2,13 @@
 
 ### react-native-ico-lodgicons
 
-400 Icons
+369 Vector Icons for React Native
+
+<img src="./static/24-hours-room-service.png" alt="24-hours-room-service" width="150" height="150"> <img src="./static/24-hours-sign.png" alt="24-hours-sign" width="150" height="150"> <img src="./static/3-persons-or-person-number-three-symbol.png" alt="3-persons-or-person-number-three-symbol" width="150" height="150">
+
+## List of icons
+
+- [List of Lodgicons Icons](http://ico.simpleness.org/pack/lodgicons)
 
 ## Usage
 
@@ -22,10 +28,6 @@ render() {
 }
 
 ```
-
-## List of icons
-
-- [List of Lodgicons Icons](http://ico.simpleness.org/pack/lodgicons)
 
 ## Installation
 
@@ -61,7 +63,7 @@ Returns a SvgXml icon by name and group.
 
  name | optional | default value | description | examples
 ------|----------|---------------|-------------|---------
-name | no |  | name of file | "24-hours-room-service"
+name | no |  | name of icon | "24-hours-room-service"
 color | yes | | line color, css style | "#00ff00", "#0f0", "green"
 width | yes | 20 | width of the icon | 40
 height | yes | 20 | height of the icon | 40
