@@ -1,5 +1,6 @@
 declare module 'react-native-ico-lodgicons' {
     import { ReactNode } from 'react';
+    import { SvgProps, AdditionalProps } from 'react-native-svg';
 
     type iconNames = '1-star' |
       '2-stars-symbol' |
@@ -433,7 +434,7 @@ declare module 'react-native-ico-lodgicons' {
       badge?: number | string | badgeTypeObj;
     }
 
-    const Icon: (props: IconProps) => ReactNode;
+    const Icon: (props: IconProps & SvgProps & AdditionalProps) => ReactNode;
 
     export { iconNames };
     export default Icon;
