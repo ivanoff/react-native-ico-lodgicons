@@ -4,7 +4,7 @@
 
 400 Vector Icons for React Native
 
-<img src="./static/24-hours-room-service.png" alt="24-hours-room-service" width="150" height="150"> <img src="./static/24-hours-sign.png" alt="24-hours-sign" width="150" height="150"> <img src="./static/3-persons-or-person-number-three-symbol.png" alt="3-persons-or-person-number-three-symbol" width="150" height="150">
+<img src="./static/1-star.png" alt="1-star" width="150" height="150"> <img src="./static/baggage-on-platform-cart-outline.png" alt="baggage-on-platform-cart-outline" width="150" height="150"> <img src="./static/parking-square-signal.png" alt="parking-square-signal" width="150" height="150">
 
 ## List of icons
 
@@ -20,14 +20,14 @@ import Icon from 'react-native-ico-lodgicons';
 render() {
     return (
         <>
-          <Icon name="24-hours-room-service" />
-          <Icon name="24-hours-sign" height="40" width="40" />
-          <Icon name="3-persons-or-person-number-three-symbol" color="red" />
-          <Icon name="3-persons-or-person-number-three-symbol" colors={{ "#000000": "#FFFFFF" }} />
-          <Icon name="24-hours-sign" badge="10" />
-          <Icon name="24-hours-sign" badge={{value: 'A', fontSize: 25, radius: 22, position:'top_left', color:'orange', backgroundColor:'blue'}}/>
-          <Icon name="24-hours-room-service" background="circle" />
-          <Icon name="24-hours-room-service" background={{ type: "button", color: 'green' }} />
+          <Icon name="1-star" />
+          <Icon name="baggage-on-platform-cart-outline" height="40" width="40" />
+          <Icon name="parking-square-signal" color="red" />
+          <Icon name="parking-square-signal" colors={{ "#000000": "#FFFFFF" }} />
+          <Icon name="baggage-on-platform-cart-outline" badge="10" />
+          <Icon name="baggage-on-platform-cart-outline" badge={{value: 'A', fontSize: 25, radius: 22, position:'top_left', color:'orange', backgroundColor:'blue'}}/>
+          <Icon name="1-star" background="circle" />
+          <Icon name="1-star" background={{ type: "button", color: 'green' }} />
         </>
     );
 }
@@ -54,7 +54,9 @@ npm install --save react-native-ico-lodgicons react-native-svg
 react-native link react-native-svg
 ```
 
-### pod install ( for iOS )
+`react-native-svg` is a peer dependency. Install a current version in the app so the package uses the app-level native module instead of pulling in an older nested copy.
+
+### pod install (for iOS)
 
 ```
 cd ios && pod install && cd ..
@@ -68,9 +70,9 @@ Returns a SvgXml icon by name and group.
 
  name | optional | default value | description | examples
 ------|----------|---------------|-------------|---------
-name | no |  | name of icon | "24-hours-room-service"
+name | no |  | name of icon | "1-star"
 color | yes | | line color, css style | "#00ff00", "#0f0", "green"
-colors | yes | | replace colors | {"#FFFFFF": "#000000"} // white to black
+colors | yes | | replace colors | {"#FFFFFF": "#000000", "#f00": "#00f"} // white to black, red to blue
 width | yes | 20 | width of the icon | 40
 height | yes | 20 | height of the icon | 40
 background | yes | | background type | "circle"
